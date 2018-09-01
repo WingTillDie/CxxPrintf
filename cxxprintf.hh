@@ -15,7 +15,7 @@ putf_r putf(const char* fmt, ...){
 }
 
 auto& operator<<(std::ostream& os, putf_r a){
-	std::cout<<a.s;
+	os<<a.s;
 	free(a.s);
 	return os;
 }
