@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cfloat>
 #include "cxxprintf.hh"
 
 class ostreamf{

@@ -1,3 +1,5 @@
 *.gch
 a.out
+a.exe
+*.o
 *.swp
