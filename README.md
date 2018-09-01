@@ -29,7 +29,7 @@ Sample output on stdout (on x86_64 machine):
 
 ```
 ### Caveat
-Compiler warning flag -Wformat-nonliteral doesn't check format in putf, so take care of [uncontrolled format string](https://en.m.wikipedia.org/wiki/Uncontrolled_format_string) vulnerability by yourself. 
+Compiler warning flag -Wformat-nonliteral doesn't check format in putf, so take care of [uncontrolled format string](https://en.wikipedia.org/wiki/Uncontrolled_format_string) vulnerability by yourself. 
 ## Description
 This header file implement C printf-like formatting for C++ std::cout using vasprintf() from stdio.h.  
 This header file achieve the feature using relative short code compared to other methods like boost::format or std::experimental::putf, see [related thread on StackOverflow](https://stackoverflow.com/questions/15106102/how-to-use-c-stdostream-with-printf-like-formatting#15106194).
