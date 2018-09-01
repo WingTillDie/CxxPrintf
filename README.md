@@ -1,5 +1,5 @@
 # CxxPrintf
-C++ printf-like formatting for std::cout implemented using vasprintf()
+C++ printf-like formatting for std::ostream implemented using vasprintf()
   
 ## Usage
 ```C++
@@ -9,11 +9,14 @@ std::cout << putf(const char *format, ...); //Same format as C printf(3)
 ### Example
 ```C++
 std::cout << putf("%3d\n", 23) << putf("%a\n", 256.);
+std::cerr << putf("%Le\n", LDBL_MAX) << putf("%p", NULL);
 ```
 Output on stdout:
 ```
  23
 0x1p+8
+1.797693e+308
+0x0
 
 ```
 ## Description
