@@ -1,5 +1,5 @@
 # CxxPrintf
-C++ printf-like formatting for std::ostream implemented using vasprintf()
+C++ printf-like formatting for std::ostream implemented via vasprintf()
   
 ## Usage
 ```C++
