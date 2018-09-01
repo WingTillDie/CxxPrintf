@@ -20,7 +20,7 @@ Compile with linking to cxxprintf.a:
 ```bash
 g++ example.cc cxxprintf.a
 ```
-Output on stdout(on x86_64 machine):
+Output on stdout (on x86_64 machine):
 ```
  23
 0x1p+8
