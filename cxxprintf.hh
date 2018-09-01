@@ -1,7 +1,5 @@
 #pragma once
-#include <iostream>
 #include <cstdarg>
-#include <cstdio>
 
 struct putf_r{
 	char *s;
