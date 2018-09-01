@@ -7,7 +7,7 @@ Copy cxxprintf.a and cxxprintf.hh to the directory containing the source file th
 In your sorce code:  
 ```C++
 #include "cxxprintf.hh"
-std::cout << putf(const char *format, ...); //Same format as C printf(3)
+std::ostream << putf(const char *format, ...); //Same format as C printf(3)
 ```
 Then link with cxxprintf.a when compiling  
 ### Example
