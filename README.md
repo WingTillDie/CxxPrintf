@@ -39,3 +39,7 @@ Download cxxprintf.cc, then in the terminal:
 g++ -c cxxprintf.cc
 ar rcs cxxprintf.a cxxprintf.o
 ```
+## Design
+A new struct putf_r that contains char *s, will be used in << operator overloading  
+putf() receive format string, pass it to vasprintf(), then the result is return by putf() as putf_r.s   
+Overloading << operator with std::ostream and putf_r as argument, it will std::ostream<<putf_r.s, then free putf_r.s which is allocated by vasprintf()  
