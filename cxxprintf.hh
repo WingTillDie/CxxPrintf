@@ -7,9 +7,10 @@ struct putf_r{
 
 putf_r putf(const char* fmt, ...){
 	va_list ap;
-	putf_r a;
 	va_start(ap, fmt);
+	putf_r a;
 	vasprintf(&a.s, fmt, ap);
+	va_end(ap);
 	return a;
 }
 
