@@ -1,5 +1,5 @@
 # CxxPrintf
-C++ printf for std::cout implemented using vasprintf()  
+C++ printf-like formatting for std::cout implemented using vasprintf()
   
 ## Usage
 ```C++
