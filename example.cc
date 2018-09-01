@@ -1,4 +1,6 @@
+#define _GNU_SOURCE
 #include <iostream>
+#include <cfloat>
 #include "cxxprintf.hh"
 
 int main(){
