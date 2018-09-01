@@ -7,6 +7,7 @@ C++ printf-like formatting for std::ostream implemented using vasprintf()
 std::cout << putf(const char *format, ...); //Same format as C printf(3)
 ```
 ### Example
+See [example.cc](example.cc)
 ```C++
 std::cout << putf("%3d\n", 23) << putf("%a\n", 256.);
 std::cerr << putf("%Le\n", LDBL_MAX) << putf("%p", NULL);
