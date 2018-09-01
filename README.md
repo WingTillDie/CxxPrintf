@@ -4,7 +4,7 @@ C++ printf-like formatting for std::cout implemented using vasprintf()
 ## Usage
 ```C++
 #include "cxxprintf.hh"
-std::cout << putf(const char *format, ...); //Same as C printf(3)
+std::cout << putf(const char *format, ...); //Same format as C printf(3)
 ```
 ### Example
 ```C++
