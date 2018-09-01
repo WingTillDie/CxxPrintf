@@ -1,2 +1,2 @@
 # CxxPrintf
-C++ printf implemented using vasprintf
+C++ printf for std::cout implemented using vasprintf
