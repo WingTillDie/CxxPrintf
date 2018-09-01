@@ -18,4 +18,4 @@ Output on stdout:
 ```
 ## Description
 This header file implement C printf-like formatting for C++ std::cout using vasprintf() from stdio.h.  
-Other methods like boost::format, std::experimental::putf can be used to acheive the same feature, see [related thread on StackOverflow](https://stackoverflow.com/questions/15106102/how-to-use-c-stdostream-with-printf-like-formatting#15106194)
+This header file acheive the feature using relative short code compared to other methods like boost::format or std::experimental::putf, see [related thread on StackOverflow](https://stackoverflow.com/questions/15106102/how-to-use-c-stdostream-with-printf-like-formatting#15106194).
