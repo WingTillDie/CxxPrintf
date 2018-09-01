@@ -3,6 +3,7 @@ C++ printf-like formatting for std::ostream implemented via vasprintf()
   
 ## Usage
 ```C++
+#define _GNU_SOURCE
 #include "cxxprintf.hh"
 std::cout << putf(const char *format, ...); //Same format as C printf(3)
 ```
@@ -12,11 +13,11 @@ See [example.cc](example.cc)
 std::cout << putf("%3d\n", 23) << putf("%a\n", 256.);
 std::cerr << putf("%Le\n", LDBL_MAX) << putf("%p", NULL);
 ```
-Output on stdout:
+Output on stdout(on x86_64 machine):
 ```
  23
 0x1p+8
-1.797693e+308
+1.189731e+4932
 0x0
 
 ```
